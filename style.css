@@ -124,11 +124,14 @@ h2 {
     list-style-type: none;
     margin: 8px;
     padding: 2px;
+    border: 1px solid transparent;
+    border-radius: 50%;
 }
 
-.vybrana {
+.seznamvelikosti li:hover,
+.seznamvelikosti li:active,
+.seznamvelikosti li:focus {
     color: #f15f42;
-    border-radius: 50%;
     border: 1px solid #f15f42;
 }
 
